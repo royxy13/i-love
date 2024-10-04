@@ -1,0 +1,18 @@
+<html>
+    <body>
+        <h1>hai cantik</h1>
+        <img> <img src="https://tse1.mm.bing.net/th?id=OIP.LiWVr5WkHaxiqpSOCcHzGwAAAA&amp;pid=Api&amp;P=0&amp;h=180" id="img" style="width: 324px; height: 324px;">
+        <h1>mau gk jadi pacar ku</h1>
+        <button id='btn_mau' onclick='alert("I <3 U")'>Mau</button>
+            <button id='btn_gamau' onclick='gamau(this)'style='position:absolute'>Gamau</button>
+    </body>
+    <script>
+        function gamau(id){
+            var mau = document.getElementById('btn_mau');
+            var i = Math.floor(Math.random()*300)+1;
+            var j = Math.floor(Math.random()*100)+1+mau.offsetTop;
+            id.style.left = i+'px';
+            id.style.top = j+'px';
+        }
+    </script>    
+</html>
